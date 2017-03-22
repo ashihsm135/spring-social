@@ -1,0 +1,28 @@
+#Database Configuration
+db.driver=com.mysql.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/socialtwitter 
+db.username=root
+db.password=root
+
+#Hibernate Configuration
+hibernate.dialect=org.hibernate.dialect.MySQLDialect
+hibernate.format_sql=true
+hibernate.hbm2ddl.auto=create-drop
+hibernate.ejb.naming_strategy=org.hibernate.cfg.DefaultNamingStrategy
+hibernate.show_sql=true
+
+#Facebook
+facebook.app.id=1131060046929336
+facebook.app.secret=e333f1817c494acbae8db44a35684e36
+
+#Twitter
+twitter.consumer.key=tFB697IuHLJrxaBd5KVC1FOOs
+twitter.consumer.secret=MXhymieUjIgoSJ037bYtwC15ndtlK5diEu0cGP4D8b77MqbSsG
+
+#LinkedIn
+linkedin.consumerKey=tFB697IuHLJrxaBd5KVC1FOOs
+linkedin.consumerSecret=MXhymieUjIgoSJ037bYtwC15ndtlK5diEu0cGP4D8b77MqbSsG
+
+#Google+
+google.clientId=tFB697IuHLJrxaBd5KVC1FOOs
+google.clientSecret=MXhymieUjIgoSJ037bYtwC15ndtlK5diEu0cGP4D8b77MqbSsG
